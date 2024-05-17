@@ -7,7 +7,7 @@ import redPawn from './red pawn.png';
 import Strikes from './strike';
 import Greencircle from './greencircles';
 
-function App() {
+function Board() {
   const vertical = ['1', '2', '3', '4', '5'];
   const horizontal = ['a', 'b', 'c', 'd', 'e'];
   const [marginLeft, setMarginLeft] = useState(0); // State to manage marginLeft
@@ -101,4 +101,4 @@ function App() {
   );
 }
 
-export default App;
+export default Board;
