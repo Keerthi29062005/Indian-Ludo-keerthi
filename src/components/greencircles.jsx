@@ -1,5 +1,4 @@
 import React from "react";
-import './App.css';
 import { Circle } from 'react-awesome-shapes/dist/shapes/circle';
 function Greencircle(){
     return(

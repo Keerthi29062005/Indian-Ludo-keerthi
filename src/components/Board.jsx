@@ -1,9 +1,8 @@
 import React, { useState, useRef } from 'react';
-import './App.css';
-import greenPawn from './green pawn.png';
-import bluePawn from './blue pawn.png';
-import yellowPawn from './yellow pawn.png';
-import redPawn from './red pawn.png';
+import greenPawn from '../assets/green pawn.png';
+import bluePawn from '../assets/blue pawn.png';
+import yellowPawn from '../assets/yellow pawn.png';
+import redPawn from '../assets/red pawn.png';
 import Strikes from './strike';
 import Greencircle from './greencircles';
 
