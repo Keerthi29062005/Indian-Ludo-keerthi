@@ -1,0 +1,30 @@
+/* Total.css */
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .images-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  
+  .image-container img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    border-color: black;
+    border-radius: 5px;
+  }
+  
+  .count {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color: black;
+  }
+  
