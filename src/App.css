@@ -68,11 +68,17 @@
   margin-left: 50px;
   margin-top: 50px;
 }
+.HOME {
+  position: relative;
+}
+.triangled,.trianglel,.triangler,.triangleu {
+  position:absolute;
+}
 .triangleu {
   width: 0;
   height: 0;
+  margin-left:50px;
   position: absolute;
-  left: 51%;
   transform: translate(-50%, -50%) rotate(45deg);
   border-top: 35px solid transparent;
   border-left: 35px solid transparent;
@@ -83,9 +89,8 @@
   width: 0;
   height: 0;
   position: absolute;
-  top: 50%;
-  margin-top: 2px;
   margin-left : 100px ;
+  margin-top:50px;
   transform: translate(-50%, -50%) rotate(135deg);
   border-top: 35px solid transparent;
   border-left: 35px solid transparent;
@@ -96,8 +101,7 @@
   width: 0;
   height: 0;
   position: absolute;
-  top: 50%;
-  margin-top: 2px;
+  margin-top: 50px;
   transform: translate(-50%, -50%) rotate(315deg);
   border-top: 35px solid transparent;
   border-left: 35px solid transparent;
@@ -107,8 +111,8 @@
 .triangled {
   width: 0;
   height: 0;
+  margin-left:50px;
   position: absolute;
-  left: 51%;
   margin-top: 100px;
   transform: translate(-50%, -50%) rotate(225deg);
   border-top: 35px solid transparent;
