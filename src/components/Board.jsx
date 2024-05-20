@@ -5,6 +5,11 @@ import yellowPawn from '../assets/yellow pawn.png';
 import redPawn from '../assets/red pawn.png';
 import Strikes from './strike';
 import Greencircle from './greencircles';
+import Redcircles from './Redcircles';
+import Bluecircles from './Bluecircles';
+import "../App.css";
+import Yellowcircles from './Yellowcircles';
+
 
 function Board() {
   const vertical = ['1', '2', '3', '4', '5'];
@@ -58,7 +63,7 @@ function Board() {
                 </div>
               )}
               {h === 'a' && v === '3' && (
-                <div className='Green_Parent'>
+                <div className='Parent'>
                   <Strikes />
                   <Greencircle />
                   <img
@@ -72,19 +77,22 @@ function Board() {
                 </div>
               )}
               {h === 'e' && v === '3' && (
-                <div>
+                <div className='Parent'>
+                  <Bluecircles/>
                   <Strikes />
                   <img src={bluePawn} alt='Blue Pawn' className='gpu' />
                 </div>
               )}
               {h === 'c' && v === '1' && (
-                <div>
+                <div className='Parent'>
+                  <Redcircles/>
                   <Strikes />
                   <img src={redPawn} alt='Red Pawn' className='gpu' />
                 </div>
               )}
               {h === 'c' && v === '5' && (
-                <div>
+                <div className='Parent'>
+                  <Yellowcircles/>
                   <Strikes />
                   <img src={yellowPawn} alt='Yellow Pawn' className='gpu' />
                 </div>

@@ -120,30 +120,30 @@
   border-right: 35px solid blue; 
   border-bottom: 35px solid blue; 
 }
-.Green_Parent {
+.Parent {
   position: relative;
 }
-.GreenCircled,.GreenCirclel,.GreenCircler,.GreenCircleu {
+.Circled,.Circlel,.Circler,.Circleu {
   position: absolute;
 }
-.GreenCircleu {
+.Circleu {
   left:38%;
   top: 0%;
   position: absolute;
 }
-.GreenCircled {
+.Circled {
   left:21px;
   top: 40px;
   position: absolute;
   
 }
-.GreenCirclel {
+.Circlel {
   left: 0%;
   top: 60%;
   position: absolute;
   
 }
-.GreenCircler {
+.Circler {
   left: 40px;
   top: 60%;
   position: absolute;
