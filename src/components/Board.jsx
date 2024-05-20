@@ -49,7 +49,7 @@ function Board() {
           vertical.map((v) => (
             <div className='tile' key={`${h}${v}`}>
               {h === 'c' && v === '3' && (
-                <div>
+                <div className='HOME'>
                   <div className='triangleu'></div>
                   <div className='triangler'></div>
                   <div className='trianglel'></div>
