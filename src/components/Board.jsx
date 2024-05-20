@@ -70,9 +70,32 @@ function Board() {
                     ref={imageRef}
                     src={greenPawn}
                     alt='Green Pawn'
-                    className='gpr'
-                    id='gpr'
-                    style={{ marginLeft: `${marginLeft}px`, marginTop: `${marginTop}px` }}
+                    className='pu'
+                    id='pu'
+                    //style={{ marginLeft: `${marginLeft}px`, marginTop: `${marginTop}px` }}
+                  />
+                  <img
+                    ref={imageRef}
+                    src={greenPawn}
+                    alt='Green Pawn'
+                    className='pr'
+                    id='pr'
+              
+                  />
+                  <img
+                    ref={imageRef}
+                    src={greenPawn}
+                    alt='Green Pawn'
+                    className='pd'
+                    id='pd'
+                  />
+                  <img
+                    ref={imageRef}
+                    src={greenPawn}
+                    alt='Green Pawn'
+                    className='pl'
+                    id='pl'
+                    //style={{ marginLeft: `${marginLeft}px`, marginTop: `${marginTop}px` }}
                   />
                 </div>
               )}
@@ -80,21 +103,30 @@ function Board() {
                 <div className='Parent'>
                   <Bluecircles/>
                   <Strikes />
-                  <img src={bluePawn} alt='Blue Pawn' className='gpu' />
+                  <img src={bluePawn} alt='Blue Pawn' className='pu' />
+                  <img src={bluePawn} alt='Blue Pawn' className='pr' />
+                  <img src={bluePawn} alt='Blue Pawn' className='pl' />
+                  <img src={bluePawn} alt='Blue Pawn' className='pd' />
                 </div>
               )}
               {h === 'c' && v === '1' && (
                 <div className='Parent'>
                   <Redcircles/>
                   <Strikes />
-                  <img src={redPawn} alt='Red Pawn' className='gpu' />
+                  <img src={redPawn} alt='Red Pawn' className='pu' />
+                  <img src={redPawn} alt='Red Pawn' className='pr' />
+                  <img src={redPawn} alt='Red Pawn' className='pl' />
+                  <img src={redPawn} alt='Red Pawn' className='pd' />
                 </div>
               )}
               {h === 'c' && v === '5' && (
                 <div className='Parent'>
                   <Yellowcircles/>
                   <Strikes />
-                  <img src={yellowPawn} alt='Yellow Pawn' className='gpu' />
+                  <img src={yellowPawn} alt='Yellow Pawn' className='pu' />
+                  <img src={yellowPawn} alt='Yellow Pawn' className='pr' />
+                  <img src={yellowPawn} alt='Yellow Pawn' className='pd' />
+                  <img src={yellowPawn} alt='Yellow Pawn' className='pl' />
                 </div>
               )}
             </div>

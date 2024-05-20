@@ -149,36 +149,44 @@
   position: absolute;
   
 }
-.gpu{
+.Parent  
+{
+  position: relative;
+}
+.pu,.pr,.pd,.pl {
+  position: absolute;
+}
+.pu{
   height: 35px;
-  width: auto;
-  left: 40%;
+  width: 25px;
+  left: 40px;
   position: relative; 
   margin-bottom: 30px;
   z-index: 3;
 }
-.gpr{
+.pr{
   height: 35px;
-  width: auto;
-  left: 70%;
-  margin-top: 30px;
+  width: 25px;
+  left: 50px;
+  top: 0px;
   position: relative;
   z-index: 3;
 }
-.gpd{
+.pd{
   height: 35px;
-  width: auto;
-  position: relative; 
-  margin-left: 40px;
- bottom: 10px;
+  width: 25px;
+  left: 40px;
+  top: 58px;
+  position: absolute;
   z-index: 3;
+  
 }
-.gpl{
+.pl{
   height: 35px;
-  position: relative;
-  width: auto;
-margin-right: 45px;
-bottom: 100px;
+  width: 25px;
+  left:0px;
+  top: 25px;
+  position: absolute;
   z-index: 3;
 }
 .inputs{
