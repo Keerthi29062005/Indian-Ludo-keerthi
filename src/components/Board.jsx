@@ -58,7 +58,7 @@ function Board() {
                 </div>
               )}
               {h === 'a' && v === '3' && (
-                <div>
+                <div className='Green_Parent'>
                   <Strikes />
                   <Greencircle />
                   <img
