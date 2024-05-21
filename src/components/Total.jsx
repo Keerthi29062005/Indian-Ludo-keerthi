@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useEffect} from 'react';
 import gavullu from '../assets/gavullu.jpg';
 import gavullu2 from '../assets/gavullu2.jpg';
 import '../Total.css';
 
-function Images_front() {
+function Images_front({onCounts}) {
     let images = [];
     let countf = 0;
     let countb = 0;
@@ -28,6 +28,9 @@ function Images_front() {
             );
         }
     }
+    useEffect(() => {
+        onCounts({ countf, countb });
+    }, [onCounts]);
 
     return (
         <div className="image-container">

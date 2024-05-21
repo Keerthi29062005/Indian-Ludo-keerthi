@@ -3,7 +3,7 @@ import gavullu from '../assets/gavullu.jpg';
 import gavullu2 from '../assets/gavullu2.jpg';
 import '../css/Total.css';
 
-function Images_front() {
+function Images_front({}) {
     let images = [];
     let countf = 0;
     let countb = 0;
